@@ -2,12 +2,12 @@ global-style:
   version: VERSION
   css:
     base:
-      css/starterkit.base.css: {}
+      css/intelichoice.base.css: {}
     layout:
-      css/starterkit.layout.css: {}
+      css/intelichoice.layout.css: {}
     component:
-      css/starterkit.component.css: {}
+      css/intelichoice.component.css: {}
     theme:
-      css/starterkit.theme.css: {}
+      css/intelichoice.theme.css: {}
   js:
-    js/starterkit.theme.js: {}
+    js/intelichoice.theme.js: {}

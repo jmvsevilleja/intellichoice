@@ -15,6 +15,6 @@
  * Implements template_process_page().
  */
 /* -- Delete this line if you want to use this function
-function starterkit_process_page(&$variables) {
+function intelichoice_process_page(&$variables) {
 }
 // */

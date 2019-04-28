@@ -15,7 +15,7 @@
  * Implements template_preprocess_page().
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_page(&$variables) {
+function intelichoice_preprocess_page(&$variables) {
 }
 // */
 
@@ -23,7 +23,7 @@ function starterkit_preprocess_page(&$variables) {
  * Implements template_preprocess_block().
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_block(&$variables) {
+function intelichoice_preprocess_block(&$variables) {
 }
 // */
 
@@ -31,7 +31,7 @@ function starterkit_preprocess_block(&$variables) {
  * Implements template_preprocess_breadcrumb().
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_breadcrumb(&$variables) {
+function intelichoice_preprocess_breadcrumb(&$variables) {
 }
 // */
 
@@ -39,7 +39,7 @@ function starterkit_preprocess_breadcrumb(&$variables) {
  * Implements template_preprocess_details().
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_details(&$variables) {
+function intelichoice_preprocess_details(&$variables) {
 }
 // */
 
@@ -47,7 +47,7 @@ function starterkit_preprocess_details(&$variables) {
  * Implements hook_preprocess_HOOK() for feed-icon.html.twig.
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_feed_icon(&$variables) {
+function intelichoice_preprocess_feed_icon(&$variables) {
 }
 // */
 
@@ -55,7 +55,7 @@ function starterkit_preprocess_feed_icon(&$variables) {
  * Implements template_preprocess_form_element().
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_form_element(&$variables) {
+function intelichoice_preprocess_form_element(&$variables) {
 }
 // */
 
@@ -63,7 +63,7 @@ function starterkit_preprocess_form_element(&$variables) {
  * Implements template_preprocess_form_element() for form-element--advanced.html.twig.
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_form_element__advanced(&$variables) {
+function intelichoice_preprocess_form_element__advanced(&$variables) {
 }
 // */
 
@@ -71,7 +71,7 @@ function starterkit_preprocess_form_element__advanced(&$variables) {
  * Implements template_preprocess_links() for links--dropbutton.html.twig.
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_links__dropbutton(&$variables) {
+function intelichoice_preprocess_links__dropbutton(&$variables) {
 }
 // */
 
@@ -79,7 +79,7 @@ function starterkit_preprocess_links__dropbutton(&$variables) {
  * Implements template_preprocess_menu_local_action().
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_menu_local_action(&$variables) {
+function intelichoice_preprocess_menu_local_action(&$variables) {
 }
 // */
 
@@ -87,7 +87,7 @@ function starterkit_preprocess_menu_local_action(&$variables) {
  * Implements hook_preprocess_HOOK() for menu-local-tasks.html.twig.
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_menu_local_tasks(&$variables) {
+function intelichoice_preprocess_menu_local_tasks(&$variables) {
 }
 // */
 
@@ -95,7 +95,7 @@ function starterkit_preprocess_menu_local_tasks(&$variables) {
  * Implements hook_preprocess_HOOK() for menu--navbar.html.twig
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_menu__navbar(&$variables) {
+function intelichoice_preprocess_menu__navbar(&$variables) {
 }
 // */
 
@@ -103,6 +103,6 @@ function starterkit_preprocess_menu__navbar(&$variables) {
  * Implements hook_preprocess_HOOK() for menu--offcanvas.html.twig
  */
 /* -- Delete this line if you want to use this function
-function starterkit_preprocess_menu__offcanvas(&$variables) {
+function intelichoice_preprocess_menu__offcanvas(&$variables) {
 }
 // */

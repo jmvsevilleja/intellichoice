@@ -1,5 +1,5 @@
-# Schema for the configuration files of the starterkit theme.
+# Schema for the configuration files of the intelichoice theme.
 
-starterkit.settings:
+intelichoice.settings:
   type: theme_settings
-  label: 'starterkit settings'
+  label: 'intelichoice settings'

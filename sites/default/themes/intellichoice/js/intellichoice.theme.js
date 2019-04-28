@@ -1,13 +1,13 @@
 /**
  * @file
- * Attaches behaviors for starterkit.
+ * Attaches behaviors for intelichoice.
  */
 
 (function ($) {
 
   'use strict';
 
-  Drupal.behaviors.starterkit = {
+  Drupal.behaviors.intelichoice = {
     attach: function () {
     }
   };

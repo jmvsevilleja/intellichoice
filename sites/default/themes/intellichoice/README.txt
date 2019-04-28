@@ -7,7 +7,7 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-starterkit, a UIkit sub-theme generated using Drush.
+intelichoice, a UIkit sub-theme generated using Drush.
 
  * For a full description of the UIkit project:
    https://drupal.org/project/uikit

@@ -1,4 +1,4 @@
-name: starterkit
+name: Intelichoice
 type: theme
 description: 'UIkit Sub-theme'
 core: 8.x
@@ -13,4 +13,4 @@ regions:
   footer: 'Footer'
 
 libraries:
-  - starterkit/global-style
+  - intelichoice/global-style
