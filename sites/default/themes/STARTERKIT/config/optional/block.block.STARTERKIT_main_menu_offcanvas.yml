@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - STARTERKIT
-id: STARTERKIT_main_menu_offcanvas
-theme: STARTERKIT
+    - starterkit
+id: starterkit_main_menu_offcanvas
+theme: starterkit
 region: offcanvas
 weight: 0
 provider: null

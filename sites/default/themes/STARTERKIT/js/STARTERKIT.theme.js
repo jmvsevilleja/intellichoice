@@ -1,13 +1,13 @@
 /**
  * @file
- * Attaches behaviors for STARTERKIT.
+ * Attaches behaviors for starterkit.
  */
 
 (function ($) {
 
   'use strict';
 
-  Drupal.behaviors.STARTERKIT = {
+  Drupal.behaviors.starterkit = {
     attach: function () {
     }
   };

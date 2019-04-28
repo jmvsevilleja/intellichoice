@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - STARTERKIT
-id: STARTERKIT_tools
-theme: STARTERKIT
+    - starterkit
+id: starterkit_tools
+theme: starterkit
 region: sidebar_first
 weight: 0
 provider: null

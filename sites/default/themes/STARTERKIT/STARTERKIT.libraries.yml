@@ -2,12 +2,12 @@ global-style:
   version: VERSION
   css:
     base:
-      css/STARTERKIT.base.css: {}
+      css/starterkit.base.css: {}
     layout:
-      css/STARTERKIT.layout.css: {}
+      css/starterkit.layout.css: {}
     component:
-      css/STARTERKIT.component.css: {}
+      css/starterkit.component.css: {}
     theme:
-      css/STARTERKIT.theme.css: {}
+      css/starterkit.theme.css: {}
   js:
-    js/STARTERKIT.theme.js: {}
+    js/starterkit.theme.js: {}

@@ -4,9 +4,9 @@ dependencies:
   module:
     - search
   theme:
-    - STARTERKIT
-id: STARTERKIT_search
-theme: STARTERKIT
+    - starterkit
+id: starterkit_search
+theme: starterkit
 region: sidebar_first
 weight: -1
 provider: null

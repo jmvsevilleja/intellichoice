@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - STARTERKIT
-id: STARTERKIT_branding
-theme: STARTERKIT
+    - starterkit
+id: starterkit_branding
+theme: starterkit
 region: navbar
 weight: -6
 provider: null

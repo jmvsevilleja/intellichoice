@@ -6,9 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - STARTERKIT
-id: STARTERKIT_footer
-theme: STARTERKIT
+    - starterkit
+id: starterkit_footer
+theme: starterkit
 region: footer
 weight: -6
 provider: null

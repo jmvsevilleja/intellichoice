@@ -2,11 +2,11 @@
 
 /**
  * @file
- * Conditional logic and data processing for STARTERKIT.
+ * Conditional logic and data processing for starterkit.
  */
 
 /**
- * Load STARTERKIT's include files for theme processing.
+ * Load starterkit's include files for theme processing.
  */
 include_once 'includes/preprocess.inc';
 include_once 'includes/process.inc';

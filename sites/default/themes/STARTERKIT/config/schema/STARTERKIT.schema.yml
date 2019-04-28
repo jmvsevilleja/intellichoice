@@ -1,5 +1,5 @@
-# Schema for the configuration files of the STARTERKIT theme.
+# Schema for the configuration files of the starterkit theme.
 
-STARTERKIT.settings:
+starterkit.settings:
   type: theme_settings
-  label: 'STARTERKIT settings'
+  label: 'starterkit settings'

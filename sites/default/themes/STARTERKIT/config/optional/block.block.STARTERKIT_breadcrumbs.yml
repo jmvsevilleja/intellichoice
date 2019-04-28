@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - STARTERKIT
-id: STARTERKIT_breadcrumbs
-theme: STARTERKIT
+    - starterkit
+id: starterkit_breadcrumbs
+theme: starterkit
 region: content
 weight: -5
 provider: null
