@@ -709,27 +709,6 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5273.infini
 	svg#Capa_1 {
 		fill: #ffffff;
 	}
-
-	div#nine{
-		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellow.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	div#twentyfive{
-		background-image:url('/wp-content/uploads/2018/03/circle_icon_navyblue.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	div#twothousand{
-		background-image:url('/wp-content/uploads/2018/03/circle_icon_pink.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	div#fivethirtynine{
-		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellowgreen.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-	}
 	div#nine .number, div#twentyfive .number, div#twothousand .number, #fivethirtynine .number{
 		padding-left: 0px;
 	}
