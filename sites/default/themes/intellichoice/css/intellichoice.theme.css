@@ -1,1 +1,1473 @@
 /* Purely visual styling (“look-and-feel”) for a component. */
+
+/*
+ Theme Name:   Infinite Child
+ Theme URI:    http://demo.goodlayers.com/infinite
+ Description:  Goodlayers Infinite Child Theme
+ Author:       Goodlayers
+ Author URI:   http://goodlayers.com
+ Template:     infinite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, right-sidebar, responsive-layout
+ Text Domain:  infinite-child
+
+ START YOUR CHILD THEME CSS HERE
+*/
+
+#areasicon img{
+	width: 50px;
+}
+
+#contacticon img{
+	width: 60px;
+}
+
+#faqsection .gdlr-core-toggle-box-style-icon .gdlr-core-toggle-box-item-title {
+	text-transform: none;
+}
+
+.calc{
+	width: 65%;
+	margin: 0 auto;
+}
+
+img#mic-icon {
+    background: #ffffffb3;
+    height: 46px !important;
+}
+
+#see-more .gdlr-core-code-item-content.gdlr-core-content-font.gdlr-core-skin-e-background.gdlr-core-skin-e-content.gdlr-core-skin-border {
+	background-color: #fff0 !important;
+	color: #fff;
+	border: none;
+}
+
+.archive li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2071.infinite-normal-menu, .archive li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2070.infinite-normal-menu {
+	display: none;
+}
+
+ /* Hide Content Text*/
+.more {
+	display: none;
+}
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #36f;
+	padding-left: 8px;
+	background: transparent url('down.gif') no-repeat left; }
+a.hideLink {
+	background: transparent url('up.gif') no-repeat left; }
+a.showLink:hover, a.hideLink:hover {
+	border-bottom: 1px dotted #36f; }
+
+ /* Footer Listing Forms*/
+
+.page.infinite-body input,
+.page.infinite-body textarea {border-radius:5px;background-color: #ffffffa6;color:#636363;border-width:0;}
+
+.page input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required::-webkit-input-placeholder
+textarea.wpcf7-form-control.wpcf7-textarea::-webkit-input-placeholder {color: #636363;}
+
+.page input.wpcf7-form-control.wpcf7-submit{background-color: #f7bf24 !important;font-weight: 200;padding: 9px 8%;text-transform: none;color:#fff;display:inline-block}
+
+.category-video .infinite-single-article-thumbnail.infinite-media-image {
+	display: none;
+}
+
+#mobile-phone-icon .gdlr-core-code-item-content.gdlr-core-content-font.gdlr-core-skin-e-background.gdlr-core-skin-e-content.gdlr-core-skin-border {
+	background: none !important;
+    border: none !important;
+}
+
+.gdlr-core-pbf-section:first-child {
+	padding-top: 0px;
+}
+
+#mobile-contact-area-wrapper {
+	display:none;
+}
+
+ /* Styling for Conditional Menu */
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2062.infinite-normal-menu>a,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.current-menu-item.page_item.page-item-16.current_page_item.menu-item-3516.infinite-normal-menu>a,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-3518.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-4613.infinite-normal-menu>a,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-3535.infinite-normal-menu>a,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-3517.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2058.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2059.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2060.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2061.infinite-normal-menu>a {
+	padding-bottom: 11px;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2063.infinite-normal-menu>a {
+	padding-bottom: 17px;
+}
+
+/* Disable Menu li */
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-4950.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-4951.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-4952.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-4953.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4955.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5008.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5009.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5010.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5011.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5012.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5014.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5021.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5022.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5023.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5024.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5025.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5027.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5094.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5095.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5096.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5097.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5099.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5106.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5107.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5108.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5109.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5110.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5112.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5119.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5120.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5121.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5122.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5123.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5125.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5132.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5133.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5134.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5135.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5136.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5138.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5145.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5146.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5147.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5148.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5149.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5151.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5158.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5159.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5161.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5162.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5160.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5164.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5171.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5172.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5173.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5174.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5175.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5177.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5185.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5186.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.page-item-1499.current_page_item.menu-item-5188.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5188.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5187.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5189.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5191.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5198.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5199.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5200.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5201.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5202.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5204.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5211.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5212.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5213.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5214.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5215.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5217.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5224.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5225.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5226.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5227.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5228.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5230.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5237.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5238.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5239.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5240.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5241.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5243.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5250.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5251.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5252.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5253.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5254.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5256.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-home.menu-item-5263.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5264.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5265.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5266.infinite-normal-menu,
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-5267.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5269.infinite-normal-menu{
+	display:none;
+}
+
+/* Phone Number */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4961.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5020.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5105.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5144.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5157.infinite-normal-menu{
+	width: initial;
+}
+
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4954.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4956.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4957.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4958.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4959.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4960.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4961.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5013.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5015.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5016.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5017.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5018.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5019.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5020.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5026.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5028.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5029.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5030.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5031.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5032.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5033.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5098.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5100.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5101.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5102.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5103.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5104.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5105.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5111.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5113.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5114.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5115.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5116.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5117.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5118.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5124.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5126.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5127.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5128.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5129.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5130.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5131.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5137.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5139.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5140.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5141.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5142.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5143.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5144.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5150.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5152.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5153.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5154.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5155.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5156.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5157.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5163.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5165.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5166.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5167.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5168.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5169.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5170.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5176.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5178.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5179.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5181.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5182.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5183.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5184.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5190.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5192.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5193.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5194.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5195.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5196.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5197.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5203.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5205.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5206.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5207.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5208.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5209.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5210.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5216.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5218.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5219.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5220.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5221.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5222.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5223.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5229.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5231.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5232.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5233.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5234.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5235.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5236.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5242.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5244.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5245.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5246.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5247.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5248.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5249.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5255.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5257.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5258.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5259.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5260.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5261.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5262.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5268.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5270.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5271.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5272.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5273.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5274.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5275.infinite-normal-menu>a{
+	padding-bottom: 13px;
+}
+
+/* Twitter Icon */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4957.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5016.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5101.infinite-normal-menu{
+	padding-left: 0px;
+}
+
+/* Phone Number */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4961.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5020.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5033.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5105.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5118.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5131.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5144.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5157.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5170.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5184.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5197.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5210.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5223.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5236.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5249.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5262.infinite-normal-menu>a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5275.infinite-normal-menu>a{
+	color: #696969;
+	font-size: 1.5em;
+}
+
+/* Phone Number */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4961.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5020.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5033.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5105.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5118.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5131.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5144.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5157.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5170.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5184.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5197.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5210.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5223.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5236.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5249.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5262.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5275.infinite-normal-menu{
+	background-color: #fff;
+	padding-right: 15px;
+	padding-top: 24px;
+}
+
+/* Phone Icon */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4960.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5019.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5032.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5104.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5117.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5130.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5143.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5156.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5169.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5183.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5196.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5209.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5222.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5235.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5248.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5261.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5274.infinite-normal-menu{
+	background-color: #f7bf24;
+	padding-top: 24px;
+	width: 80px;
+	padding-left: 25px;
+}
+
+/* Phone Icon a */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4960.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5019.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5032.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5104.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5117.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5130.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5143.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5156.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5169.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5183.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5196.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5209.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5222.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5235.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5248.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5261.infinite-normal-menu a,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5274.infinite-normal-menu a{
+	font-size: 1.5em;
+}
+
+ /* Phone Icon */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4960.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5019.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5032.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5104.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5117.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5130.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5143.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5156.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5169.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5183.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5196.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5209.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5222.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5235.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5248.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5261.infinite-normal-menu svg.Capa_1,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5274.infinite-normal-menu svg.Capa_1{
+	width: 30px;
+}
+
+ /* Google+ Icon */
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5018.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5015.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-4959.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5103.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5116.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5129.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5142.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5155.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5168.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5182.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5195.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5208.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5221.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5234.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5247.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5260.infinite-normal-menu,
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-5273.infinite-normal-menu{
+	padding-right: 20px;
+}
+
+ /* Calculator Styling */
+
+.VisiCalcClass {
+  background:url(/staticAssets/calculators/load.gif) 50% 15% no-repeat;
+  background-size: 80px 80px;
+  min-width: 750px;
+  min-height:800px;
+  margin:0;
+  padding:0;
+}
+
+#Loan_Repayment_Calculator { min-height:550px !important; }
+#Borrowing_Power_Calculator { min-height:750px !important; }
+/*#Budget_Planner { min-height:2850px !important; }*/
+#Compound_Interest_Calculator { min-height:667px !important; }
+#Credit_Card_Calculator { min-height:900px !important; }
+#How_Long_to_Repay_Calculator { min-height:750px !important; }
+#Interest_Only_Mortgage_Calculator { min-height:590px !important; }
+#Saving_Calculator { min-height:600px !important; }
+#Split_Loan_Calculator { min-height:800px !important; }
+#Property_Selling_Cost_Calculator { min-height:700px !important; }
+#Reverse_Mortgage_Calculator { min-height:1100px !important; }
+#Stamp_Duty_Calculator { min-height:650px !important; }
+#Income_Gross_Up_Calculator{ min-height:900px !important; }
+#Income_Gross_Up_Calculator{ min-height:900px !important; }
+#RentvsBuyCalculator { min-height:1100px !important; }
+#Mortgage_Switching_Calculator { min-height:1100px !important; }
+.infinite-main-menu{width: 53% !important;text-align: right !important;}
+
+/*Custom Menu*/
+.infinite-navigation{width: 80%;}
+.dv-custom-menu{width:305px;height:auto; float:right;display: table;}
+.a-phone-icon{display: inline-block;width: 80px;height: 82px;background: #f7bf24;vertical-align: middle;position: relative;}
+.a-phone-icon img{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);}
+.a-phone-num{font-family: "Roboto", sans-serif;color: #696969 !important;font-size: 1.5em; display: table-cell;vertical-align: middle; width: 225px;height: 82px;background: #ffffff;text-align: center;float: initial ;clear: both;}
+
+/*Header Social  Links*/
+.dv-social{width: auto; height:82px; float: right;color: #ffffff;position: relative; display: table;clear: left;padding: 0 15px;}
+.dv-social ul{padding: 0; margin: 0; display: table-cell; vertical-align: middle;clear: both;}
+.dv-social ul li{display: inline; margin-right: 30px;}
+.dv-social #searchform{display: table-cell;width: auto;vertical-align: middle;padding: 0 20px; }
+.dv-social #searchform input[type="text"]{width:200px; height: 34px !important;border-radius: 5px; padding: 5px}
+.dv-social a{color: #ffffff !important;}
+.dv-social .a-email{margin-left: 10px;font-size: 14px;}
+
+/*Header Content*/
+.dv-header{padding: 20px 200px 20px 200px;}
+.header-wrapper-content{padding-left: 0 !important;}
+.header-desc, .header-desc h2, .header-desc h3{color:#ffffff !important;}
+
+/*Header Title*/
+.header-title .gdlr-core-item-pdb{padding-bottom: 0 !important;}
+
+/*Header Contact*/
+.header-contact form p{margin-bottom: 0;line-height: 1em;}
+.header-contact form span.wpcf7-not-valid-tip{color:#ffffff;}
+.header-contact form div.wpcf7-response-output{color:#ffffff;}
+.header-contact div.wpcf7-response-output{margin-top: 10px;}
+.header-contact form input{padding:12px 22px !important;}
+.header-contact form textarea{height: 100px; margin-bottom: 10px;}
+.header-contact form .wpcf7-submit{margin-top: 10px;}
+
+
+@media screen and (min-width: 1368px){
+	header.infinite-header-wrap.infinite-header-style-plain.infinite-style-menu-right.infinite-sticky-navigation.infinite-style-fixed, header.infinite-header-wrap.infinite-header-style-plain.infinite-style-menu-right.infinite-sticky-navigation.infinite-style-fixed.infinite-fixed-navigation.infinite-animate-fixed-navigation, ul#menu-main-navigation-1, ul#menu-main-navigation-1 li, .infinite-logo.infinite-item-pdlr {
+		height:82px;
+
+	}
+	#footer-mailing-list input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		width: 20em;
+	}
+	svg.Capa_1 {
+    fill: #fff;
+	}
+
+	svg#Capa_1 {
+    fill: #fff;
+	}
+
+	div#nine{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellow.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#twentyfive{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_navyblue.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#twothousand{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_pink.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#fivethirtynine{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellowgreen.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#nine .number, div#twentyfive .number, div#twothousand .number, #fivethirtynine .number{
+		padding-left: 0px;
+	}
+	.number .gdlr-core-counter-item-number.gdlr-core-skin-title.gdlr-core-title-font{
+		padding-top: 60px;
+	}
+	.number .gdlr-core-counter-item-bottom-text.gdlr-core-skin-content{
+		padding-bottom: 20px;
+	}
+	.infinite-footer-container.infinite-container.clearfix{
+		padding: 0px;
+	}
+	div#whatcanyousayright{
+		background-image: linear-gradient(to right,transparent,#fafcff 30%);
+	}
+	div#areasofexpertise{
+		background-image: linear-gradient(to left,transparent,#fafcff 30%);
+	}
+	.infinite-navigation{width: 87% !important;}
+        .infinite-navigation .sf-menu > li:nth-child(6){
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(7){
+    	padding-left: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(9), .infinite-navigation .sf-menu > li:nth-child(10){
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(8){
+		padding-left: 22px;
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(11){
+		padding-left: 10px;
+    	padding-right: 45px;
+	}
+	span.horizontalline{
+		display: block;
+		width: 100%;
+		padding-top: 127px;
+    	border-bottom: 1px solid #fff;
+	}
+	#form-one .wpcf7-form p:nth-child(2), #form-one .wpcf7-form p:nth-child(3), #homepagelistingright .wpcf7-form p:nth-child(2) {
+		margin-bottom: 0px !important;
+	}
+	.gdlr-core-pbf-column.gdlr-core-column-45{
+		margin-left: 0;
+		width: 60%;
+	}
+	#footer-mailing-list .gdlr-core-pbf-column.gdlr-core-column-15.gdlr-core-column-first{
+		width: 25%;
+    	margin-left: 15%;
+		padding-left: 0%;
+	}
+        .dv-social ul li{margin-right: 25px;}
+}
+
+@media screen and (max-width: 1367px){
+	header.infinite-header-wrap.infinite-header-style-plain.infinite-style-menu-right.infinite-sticky-navigation.infinite-style-fixed, header.infinite-header-wrap.infinite-header-style-plain.infinite-style-menu-right.infinite-sticky-navigation.infinite-style-fixed.infinite-fixed-navigation.infinite-animate-fixed-navigation, ul#menu-main-navigation-1, ul#menu-main-navigation-1 li, .infinite-logo.infinite-item-pdlr {
+		height:82px;
+                padding-right: 0;
+	}
+	#footer-mailing-list input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		width: 350px;
+	}
+	svg.Capa_1 {
+    fill: #fff;
+	}
+
+	svg#Capa_1 {
+    fill: #fff;
+	}
+
+	div#nine{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellow.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#twentyfive{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_navyblue.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#twothousand{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_pink.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#fivethirtynine{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellowgreen.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#nine .number, div#twentyfive .number, div#twothousand .number, #fivethirtynine .number{
+		padding-left: 0px;
+	}
+	.number .gdlr-core-counter-item-number.gdlr-core-skin-title.gdlr-core-title-font{
+		padding-top: 60px;
+	}
+	.number .gdlr-core-counter-item-bottom-text.gdlr-core-skin-content{
+		padding-bottom: 20px;
+	}
+	.infinite-footer-container.infinite-container.clearfix{
+		padding: 0px;
+	}
+	div#whatcanyousayright{
+		background-image: linear-gradient(to right,transparent,#fafcff 30%);
+	}
+	div#areasofexpertise{
+		background-image: linear-gradient(to left,transparent,#fafcff 30%);
+	}
+	.infinite-navigation{width: 87% !important;}
+        .infinite-navigation .sf-menu > li:nth-child(6){
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(7){
+    	padding-left: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(9), .infinite-navigation .sf-menu > li:nth-child(10){
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(8){
+		padding-left: 22px;
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(11){
+		padding-left: 10px;
+    	padding-right: 45px;
+	}
+	span.horizontalline{
+		display: block;
+		width: 100%;
+		padding-top: 127px;
+    	border-bottom: 1px solid #fff;
+	}
+	#form-one .wpcf7-form p:nth-child(2), #form-one .wpcf7-form p:nth-child(3), #homepagelistingright .wpcf7-form p:nth-child(2) {
+		margin-bottom: 0px !important;
+	}
+	.gdlr-core-pbf-column.gdlr-core-column-45{
+		margin-left: 0;
+		width: 60%;
+	}
+	#footer-mailing-list .gdlr-core-pbf-column.gdlr-core-column-15.gdlr-core-column-first{
+		width: 25%;
+    	margin-left: 15%;
+		padding-left: 0%;
+	}
+        .dv-social ul li{margin-right: 25px;}
+}
+
+@media screen and (max-width: 1366px){
+	header.infinite-header-wrap.infinite-header-style-plain.infinite-style-menu-right.infinite-sticky-navigation.infinite-style-fixed, header.infinite-header-wrap.infinite-header-style-plain.infinite-style-menu-right.infinite-sticky-navigation.infinite-style-fixed.infinite-fixed-navigation.infinite-animate-fixed-navigation, ul#menu-main-navigation-1, ul#menu-main-navigation-1 li, .infinite-logo.infinite-item-pdlr {
+		height:82px;
+                padding-right: 0;
+	}
+	#footer-mailing-list input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		width: 350px;
+	}
+	svg.Capa_1 {
+		fill: #ffffff;
+	}
+
+	svg#Capa_1 {
+		fill: #ffffff;
+	}
+
+	div#nine{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellow.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#twentyfive{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_navyblue.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#twothousand{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_pink.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#fivethirtynine{
+		background-image:url('/wp-content/uploads/2018/03/circle_icon_yellowgreen.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	div#nine .number, div#twentyfive .number, div#twothousand .number, #fivethirtynine .number{
+		padding-left: 0px;
+	}
+	.number .gdlr-core-counter-item-number.gdlr-core-skin-title.gdlr-core-title-font{
+		padding-top: 60px;
+	}
+	.number .gdlr-core-counter-item-bottom-text.gdlr-core-skin-content{
+		padding-bottom: 20px;
+	}
+	.infinite-footer-container.infinite-container.clearfix{
+		padding: 0px;
+	}
+	div#whatcanyousayright{
+		background-image: linear-gradient(to right,transparent,#fafcff 30%);
+	}
+	div#areasofexpertise{
+		background-image: linear-gradient(to left,transparent,#fafcff 30%);
+	}
+        .infinite-navigation{width: 84% !important;}
+	.infinite-navigation .sf-menu > li:nth-child(6){
+    	padding-right: 0px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(7){
+    	padding-left: 0px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(9), .infinite-navigation .sf-menu > li:nth-child(10){
+		padding-left: 10px !important;
+    	padding-right: 0px !important;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(8){
+		padding-left: 22px;
+    	padding-right: 0px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(11){
+		padding-left: 10px;
+    	padding-right: 45px;
+	}
+	span.horizontalline{
+		display: block;
+		width: 100%;
+		padding-top: 127px;
+    	border-bottom: 1px solid #fff;
+	}
+	#form-one .wpcf7-form p:nth-child(2), #form-one .wpcf7-form p:nth-child(3), #homepagelistingright .wpcf7-form p:nth-child(2) {
+		margin-bottom: 0px !important;
+	}
+	.infinite-footer-container.infinite-container.clearfix, .infinite-copyright-container.infinite-container.clearfix{
+		margin-left: 2%;
+    	margin-right: 2%;
+		max-width: 1240px;
+	}
+	.infinite-copyright-container.infinite-container.clearfix{
+		padding-left: 10px;
+		padding-right: 10px;
+		max-width: 1240px;
+	}
+        .dv-custom-menu{width: 228px;}
+        .a-phone-icon{width: 70px;}
+        .a-phone-num{font-size: 1.2em;}
+        .dv-social ul li{margin-right: 12px;font-size: 16px;}
+        .dv-social #searchform{padding: 0;}
+		.dv-social #searchform input[type="text"]{width: 142px;}
+
+}
+
+@media screen and (max-width: 1024px){
+        .infinite-header-container.infinite-header-full{
+		padding-left: 0;
+	}
+        .infinite-navigation
+	.infinite-navigation .sf-menu > li:nth-child(6){
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(7){
+    	padding-left: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(9), .infinite-navigation .sf-menu > li:nth-child(10) {
+		padding-left: 10px !important;
+    	padding-right: 10px !important;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(8) {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li:nth-child(11) {
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.infinite-navigation .sf-menu > li {
+		padding-left: 0;
+	}
+	#footer-mailing-list input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		width: 232px;
+	}
+	.infinite-copyright-right.infinite-item-pdlr {
+		padding-right: 60px;
+	}
+	#search-icon {
+		height: 34px;
+	}
+	img#mic-icon{
+		height: 34px !important;
+	}
+	#transcript {
+		margin: 0px 0px 30px !important;
+		line-height: 34px !important;
+	}
+	.revtp-searchform input#transcript {
+		width: 400px;
+	}
+	#slide-28-layer-8 {
+		margin-left: -7px !important;
+	}
+	.dv-header{padding: 20px;}
+}
+
+@media screen and (max-width: 768px){
+	p {
+		font-size: 12px !important;
+	}
+	.revtp-searchform input#transcript {
+		width: 290px;
+		line-height: 33px !important;
+	}
+	#green-header {
+		margin-left: -10px !important;
+	}
+	#green-caption {
+		margin-left: 21px !important;
+	}
+	.gdlr-core-title-item-title.gdlr-core-skin-title {
+		font-size: 16px !important;
+	}
+	#what-can-you-say .gdlr-core-pbf-column-content-margin.gdlr-core-js {
+		padding: 30px 50px 22px 50px !important;
+	}
+	#what-can-you-say .gdlr-core-item-pdb {
+		padding-bottom: 0px;
+	}
+	.gdlr-core-page-builder-body p {
+		margin-bottom: 0;
+	}
+	#footer-mailing-list input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		margin-bottom: 5px;
+	}
+	#footer-mailing-list.gdlr-core-pbf-wrapper .gdlr-core-pbf-column-content-margin.gdlr-core-js {
+		padding: 30px 0px 0px 0px !important;
+	}
+	#footer-mailing-list .gdlr-core-pbf-column-content-margin.gdlr-core-js {
+		padding: 30px 50px 22px 50px !important;
+	}
+	#footer-mailing-list input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		width: 170px;
+	}
+	#footer-mailing-list .gdlr-core-title-item-title.gdlr-core-skin-title {
+		padding-left: 57px;
+		padding-top: 5px;
+	}
+	.gdlr-core-blog-title.gdlr-core-skin-title {
+		font-size: 16px !important;
+	}
+	.infinite-copyright-text, .infinite-copyright-left, .infinite-copyright-right {
+		font-size: 12px;
+	}
+	#form-one input.wpcf7-form-control.wpcf7-submit {
+		margin-top: 5px !important;
+	}
+	#homepagelistingright input.wpcf7-form-control.wpcf7-submit {
+		margin-top: 10px;
+	}
+	#homepagelistingright {
+		padding-top: 30px;
+	}
+	span.horizontalline {
+		padding-top: 137px;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2062 {
+		display: none;
+	}
+	.svg-inline--fa {
+		margin-left: 0px !important;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2063 .infinite-mm-menu-blank {
+		font-size: 26px;
+	}
+	.gdlr-core-column-service-title {
+		font-size: 12px !important;
+	}
+	.infinite-mobile-button-hamburger-with-border {
+		color: #fff !important;
+	}
+	img#mic-icon{
+		height: 33px !important;
+	}
+	#search-icon {
+		height: 33px;
+	}
+	#mobile-contact-area-wrapper {
+		display:block;
+	}
+	#mobile-contact-area-wrapper .gdlr-core-pbf-wrapper-container.clearfix.gdlr-core-container {
+		padding: 0;
+	}
+	div#mobile-phone-icon {
+		padding: 0;
+    	max-width: 100px;
+    	margin: -8px auto 0 auto;
+	}
+	.mobile-contact-area .gdlr-core-title-item-title.gdlr-core-skin-title {
+		font-size: 49px !important;
+	}
+
+	.VisiCalcClass {
+	min-width: 100%;
+	min-height:1250px;
+	margin:0;
+	padding:0;
+	}
+
+	#Loan_Repayment_Calculator { min-height:1250px !important; }
+	#Borrowing_Power_Calculator { min-height:1800px !important; }
+	#Budget_Planner { min-height:5000px !important; }
+	#Comparison_Rate_Calculator { min-height:1450px !important; }
+	#Compound_Interest_Calculator { min-height:1200px !important; }
+	#Credit_Card_Calculator { min-height:1500px !important; }
+	#Extra_Repayment_Calculator { min-height:1450px !important; }
+	#Home_Loan_Offset_Calculator{ min-height:1400px !important; }
+	#How_Long_to_Repay_Calculator { min-height:1250px !important; }
+	#Interest_Only_Mortgage_Calculator { min-height:1450px !important; }
+	#Saving_Calculator { min-height:1250px !important; }
+	#Introductory_Rate_Loan_Calculator{ min-height:1400px !important; }
+	#Lump_Sum_Repayment_Calculator { min-height:1450px !important; }
+	#Split_Loan_Calculator { min-height:1550px !important; }
+	#Loan_Comparison_Calculator { min-height:1800px !important; }
+	#Property_Buying_Cost_Calculator { min-height:1850px !important; }
+	#Property_Selling_Cost_Calculator { min-height:1650px !important; }
+	#Reverse_Mortgage_Calculator { min-height:1900px !important; }
+	#Stamp_Duty_Calculator { min-height:1250px !important; }
+	#Income_Gross_Up_Calculator{ min-height:1700px !important; }
+	#Income_Gross_Up_Calculator{ min-height:1700px !important; }
+	#RentvsBuyCalculator { min-height:1900px !important; }
+	#Mortgage_Switching_Calculator { min-height:1900px !important; }
+}
+
+@media screen and (max-width : 480px) {
+	/*#home-slider{display:none;}*/
+}
+
+@media screen and (max-width: 414px){
+	p {
+    	font-size: 18px!important;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2062 {
+		display: none;
+	}
+	.svg-inline--fa {
+		margin-left: 0px !important;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2063 .infinite-mm-menu-blank {
+		font-size: 18px;
+	}
+	.singleline li {
+		margin-bottom: 5px;
+	}
+	.singleline {
+		margin-left: 15px !important;
+	}
+	.singleline input.wpcf7-form-control.wpcf7-submit {
+		margin-top: 0px;
+	}
+	.singleline li:nth-child(3) {
+		margin-left: 30px;
+	}
+	#green-rectangle {
+		display:none;
+		/*position: absolute;*/
+		/*left: 50px;*/
+		/*min-width: 200px !important;*/
+	}
+	#green-header {
+		display:none;
+		/*position: absolute;*/
+		/*left: 50px;*/
+	}
+	#green-caption {
+		display:none;
+		/*position: absolute;*/
+		/*left: 44px;*/
+	}
+	#green-button {
+		display:none;
+		/*position: absolute;*/
+		/*left: 80px;*/
+	}
+	#searchform{
+		position: absolute !important;
+		left: -38px !important;
+	}
+	.revtp-searchform input#transcript {
+		width: 173px;
+		font-size: 14px !important;
+	}
+	#search-icon {
+		height: 32px;
+	}
+	#transcript {
+		margin: 0 0 31px !important;
+		line-height: 32px !important;
+		font-size: 10px;
+	}
+	#slider-main-caption {
+		font-size: 11px !important;
+	}
+	.slider-main-caption {
+		font-size: 11px !important;
+	}
+	.infinite-mobile-button-hamburger-with-border {
+		color: #fff !important;
+	}
+	.calc {
+		width: 100%;
+	}
+	#mobile-contact-area-wrapper {
+		display:block;
+	}
+	#mobile-contact-area-wrapper .gdlr-core-pbf-wrapper-container.clearfix.gdlr-core-container {
+		padding: 0;
+	}
+	div#mobile-phone-icon {
+		padding: 0;
+	}
+	div#mobile-phone-icon {
+		padding: 0;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+	.mobile-contact-area .gdlr-core-title-item-title.gdlr-core-skin-title {
+		font-size: 19px !important;
+		padding-top: 15px;
+
+	}
+	div#mobile-contact-icon {
+		width: 20%;
+	}
+	div#mobile-contact-number {
+		width: 80%;
+	}
+	#mobile-phone-icon p {
+		margin-bottom: 0px !important;
+		margin-top: -11px;
+	}
+	img#mic-icon{
+		height: 32px !important;
+		width: 40px !important;
+	}
+
+
+	/* Calculator Styling */
+
+	.VisiCalcClass {
+	min-width: 100%;
+	min-height:1250px;
+	margin:0;
+	padding:0;
+	}
+
+	#Loan_Repayment_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Borrowing_Power_Calculator { width: 100% !important; min-height:1800px !important; }
+	#Budget_Planner { width: 100% !important; min-height:5000px !important; }
+	#Comparison_Rate_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Compound_Interest_Calculator { width: 100% !important; min-height:1200px !important; }
+	#Credit_Card_Calculator { width: 100% !important; min-height:1500px !important; }
+	#Extra_Repayment_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Home_Loan_Offset_Calculator{ width: 100% !important; min-height:1400px !important; }
+	#How_Long_to_Repay_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Interest_Only_Mortgage_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Saving_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Introductory_Rate_Loan_Calculator{ width: 100% !important; min-height:1400px !important; }
+	#Lump_Sum_Repayment_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Split_Loan_Calculator { width: 100% !important; min-height:1550px !important; }
+	#Loan_Comparison_Calculator { width: 100% !important; min-height:1800px !important; }
+	#Property_Buying_Cost_Calculator { width: 100% !important; min-height:1850px !important; }
+	#Property_Selling_Cost_Calculator { width: 100% !important; min-height:1650px !important; }
+	#Reverse_Mortgage_Calculator { width: 100% !important; min-height:1900px !important; }
+	#Stamp_Duty_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Income_Gross_Up_Calculator{ width: 100% !important; min-height:1700px !important; }
+	#Income_Gross_Up_Calculator{ width: 100% !important; min-height:1700px !important; }
+	#RentvsBuyCalculator { width: 100% !important; min-height:1900px !important; }
+	#Mortgage_Switching_Calculator { width: 100% !important; min-height:1900px !important; }
+}
+
+@media screen and (max-width: 375px){
+	p {
+    	font-size: 18px!important;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2062 {
+		display: none;
+	}
+	.svg-inline--fa {
+		margin-left: 0px !important;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2063 .infinite-mm-menu-blank {
+		font-size: 18px;
+	}
+	.singleline li {
+		margin-bottom: 5px;
+	}
+	.singleline {
+		margin-left: 43px !important;
+	}
+	.singleline input.wpcf7-form-control.wpcf7-submit {
+		margin-top: 0px;
+	}
+	.singleline li:nth-child(3) {
+		margin-left: 30px;
+	}
+	#green-rectangle {
+		display:none;
+		/*position: absolute;*/
+		/*left: 50px;*/
+		/*min-width: 200px !important;*/
+	}
+	#green-header {
+		display:none;
+		/*position: absolute;*/
+		/*left: 50px;*/
+	}
+	#green-caption {
+		display:none;
+		/*position: absolute;*/
+		/*left: 44px;*/
+	}
+	#green-button {
+		display:none;
+		/*position: absolute;*/
+		/*left: 80px;*/
+	}
+	#searchform{
+		position: absolute !important;
+		left: -46px !important;
+	}
+	#transcript {
+		font-size: 10px !important;
+	}
+	#slider-main-caption {
+		font-size: 10px !important;
+	}
+	.slider-main-caption {
+		font-size: 10px !important;
+	}
+	div#footer-listing-header {
+		margin-left: 25px;
+	}
+	.infinite-item-pdlr, .gdlr-core-item-pdlr {
+		padding-left: 0;
+	}
+	.infinite-mobile-button-hamburger-with-border {
+		color: #fff !important;
+	}
+	.calc {
+		width: 100%;
+	}
+	#mobile-contact-area-wrapper {
+		display:block;
+	}
+	#mobile-contact-area-wrapper .gdlr-core-pbf-wrapper-container.clearfix.gdlr-core-container {
+		padding: 0;
+	}
+	div#mobile-phone-icon {
+		padding: 0;
+	}
+	div#mobile-phone-icon {
+		padding: 0;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+	.mobile-contact-area .gdlr-core-title-item-title.gdlr-core-skin-title {
+		font-size: 19px !important;
+		padding-top: 15px;
+	}
+	.revtp-searchform input#transcript {
+		width: 173px;
+	}
+	div#mobile-contact-icon {
+		width: 20%;
+	}
+	div#mobile-contact-number {
+		width: 80%;
+	}
+	#mobile-phone-icon p {
+		margin-bottom: 0px !important;
+		margin-top: -11px;
+	}
+	img#mic-icon {
+		height: 32px !important;
+		width: 40px !important;
+	}
+	#search-icon {
+		width: 47px !important;
+	}
+
+	/* Calculator Styling */
+	.VisiCalcClass {
+	min-width: 100%;
+	min-height:1250px;
+	margin:0;
+	padding:0;
+	}
+
+	#Loan_Repayment_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Borrowing_Power_Calculator { width: 100% !important; min-height:1800px !important; }
+	#Budget_Planner { width: 100% !important; min-height:5000px !important; }
+	#Comparison_Rate_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Compound_Interest_Calculator { width: 100% !important; min-height:1200px !important; }
+	#Credit_Card_Calculator { width: 100% !important; min-height:1500px !important; }
+	#Extra_Repayment_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Home_Loan_Offset_Calculator{ width: 100% !important; min-height:1400px !important; }
+	#How_Long_to_Repay_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Interest_Only_Mortgage_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Saving_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Introductory_Rate_Loan_Calculator{ width: 100% !important; min-height:1400px !important; }
+	#Lump_Sum_Repayment_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Split_Loan_Calculator { width: 100% !important; min-height:1550px !important; }
+	#Loan_Comparison_Calculator { width: 100% !important; min-height:1800px !important; }
+	#Property_Buying_Cost_Calculator { width: 100% !important; min-height:1850px !important; }
+	#Property_Selling_Cost_Calculator { width: 100% !important; min-height:1650px !important; }
+	#Reverse_Mortgage_Calculator { width: 100% !important; min-height:1900px !important; }
+	#Stamp_Duty_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Income_Gross_Up_Calculator{ width: 100% !important; min-height:1700px !important; }
+	#Income_Gross_Up_Calculator{ width: 100% !important; min-height:1700px !important; }
+	#RentvsBuyCalculator { width: 100% !important; min-height:1900px !important; }
+	#Mortgage_Switching_Calculator { width: 100% !important; min-height:1900px !important; }
+}
+
+@media screen and (max-width: 320px){
+
+	p {
+    	font-size: 18px!important;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2062 {
+		display: none;
+	}
+	.svg-inline--fa {
+		margin-left: 0px !important;
+	}
+	.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-2063 .infinite-mm-menu-blank {
+		font-size: 18px;
+	}
+	.singleline li {
+		margin-bottom: 5px;
+	}
+	.singleline {
+		margin-left: 15px !important;
+	}
+	.singleline input.wpcf7-form-control.wpcf7-submit {
+		margin-top: 0px;
+	}
+	.singleline li:nth-child(3) {
+		margin-left: 30px;
+	}
+	#green-rectangle {
+		display:none;
+		/*position: absolute;*/
+		/*left: 50px;*/
+		/*min-width: 200px !important;*/
+	}
+	#green-header {
+		display:none;
+		/*position: absolute;*/
+		/*left: 50px;*/
+	}
+	#green-caption {
+		display:none;
+		/*position: absolute;*/
+		/*left: 44px;*/
+	}
+	#green-button {
+		display:none;
+		/*position: absolute;*/
+		/*left: 80px;*/
+	}
+	#searchform{
+		position: absolute !important;
+		left: -56px !important;
+	}
+	#transcript {
+		font-size: 10px !important;
+	}
+	#slider-main-caption {
+		font-size: 7px;
+	}
+	.slider-main-caption {
+		font-size: 7px;
+	}
+	#what-can-you-say .gdlr-core-pbf-wrapper-container.clearfix.gdlr-core-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#what-can-you-say .gdlr-core-pbf-column-content.clearfix.gdlr-core-js {
+		padding: 0 10px 0 10px;
+	}
+	.singleline input.wpcf7-form-control.wpcf7-submit {
+		width: 232px;
+	}
+	.singleline li:nth-child(3){
+		margin-left: -20px;
+	}
+	.infinite-mobile-button-hamburger-with-border {
+		color: #fff !important;
+	}
+	.calc {
+		width: 100%;
+	}
+	#mobile-contact-area-wrapper {
+		display:block;
+	}
+	#mobile-contact-area-wrapper .gdlr-core-pbf-wrapper-container.clearfix.gdlr-core-container {
+		padding: 0;
+	}
+	div#mobile-phone-icon {
+		padding: 0;
+	}
+	div#mobile-phone-icon {
+		padding: 0;
+    	width: 130%;
+    	margin: 0 auto 0 -8px;
+	}
+	.mobile-contact-area .gdlr-core-title-item-title.gdlr-core-skin-title {
+		font-size: 19px !important;
+		padding-top: 15px;
+
+	}
+	div#mobile-contact-icon {
+		width: 20%;
+	}
+	div#mobile-contact-number {
+		width: 80%;
+	}
+	#mobile-phone-icon p {
+		margin-bottom: 0px !important;
+		margin-top: -11px;
+	}
+	#search-icon {
+		height: 44px;
+	}
+	img#mic-icon{
+		height: 44px !important;
+		width: 40px !important;
+	}
+	.revtp-searchform input#transcript {
+		font-size: 13px !important;
+		line-height: 44px !important;
+    	padding: 0 5px !important;
+		-webkit-border-radius: 5px 0 0 5px !important;
+    	-moz-border-radius: 5px 0 0 5px !important;
+		margin-bottom: 43px !important;
+		width: 162px !important;
+	}
+
+	/* Calculator Styling */
+	.VisiCalcClass {
+	min-width: 100% !important;
+	min-height:1250px;
+	margin:0;
+	padding:0;
+	}
+
+	#Loan_Repayment_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Borrowing_Power_Calculator { width: 100% !important; min-height:1800px !important; }
+	#Budget_Planner { width: 100% !important; min-height:5000px !important; }
+	#Comparison_Rate_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Compound_Interest_Calculator { width: 100% !important; min-height:1200px !important; }
+	#Credit_Card_Calculator { width: 100% !important; min-height:1500px !important; }
+	#Extra_Repayment_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Home_Loan_Offset_Calculator{ width: 100% !important; min-height:1400px !important; }
+	#How_Long_to_Repay_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Interest_Only_Mortgage_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Saving_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Introductory_Rate_Loan_Calculator{ width: 100% !important; min-height:1400px !important; }
+	#Lump_Sum_Repayment_Calculator { width: 100% !important; min-height:1450px !important; }
+	#Split_Loan_Calculator { width: 100% !important; min-height:1550px !important; }
+	#Loan_Comparison_Calculator { width: 100% !important; min-height:1800px !important; }
+	#Property_Buying_Cost_Calculator { width: 100% !important; min-height:1850px !important; }
+	#Property_Selling_Cost_Calculator { width: 100% !important; min-height:1650px !important; }
+	#Reverse_Mortgage_Calculator { width: 100% !important; min-height:1900px !important; }
+	#Stamp_Duty_Calculator { width: 100% !important; min-height:1250px !important; }
+	#Income_Gross_Up_Calculator{ width: 100% !important; min-height:1700px !important; }
+	#Income_Gross_Up_Calculator{ width: 100% !important; min-height:1700px !important; }
+	#RentvsBuyCalculator { width: 100% !important; min-height:1900px !important; }
+	#Mortgage_Switching_Calculator { width: 100% !important; min-height:1900px !important; }
+
+
+}
+
+
+#slider-main-caption /* fix for the too small font when viewed on smaller mobile devices and small screens 2019-01-31 */
+{
+	font-size: 14px !important;
+	line-height: 14px !important;
+}

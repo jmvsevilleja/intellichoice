@@ -2,12 +2,12 @@ global-style:
   version: VERSION
   css:
     base:
-      css/intelichoice.base.css: {}
+      css/intellichoice.base.css: {}
     layout:
-      css/intelichoice.layout.css: {}
+      css/intellichoice.layout.css: {}
     component:
-      css/intelichoice.component.css: {}
+      css/intellichoice.component.css: {}
     theme:
-      css/intelichoice.theme.css: {}
+      css/intellichoice.theme.css: {}
   js:
-    js/intelichoice.theme.js: {}
+    js/intellichoice.theme.js: {}

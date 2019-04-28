@@ -1,13 +1,13 @@
 /**
  * @file
- * Attaches behaviors for intelichoice.
+ * Attaches behaviors for intellichoice.
  */
 
 (function ($) {
 
   'use strict';
 
-  Drupal.behaviors.intelichoice = {
+  Drupal.behaviors.intellichoice = {
     attach: function () {
     }
   };

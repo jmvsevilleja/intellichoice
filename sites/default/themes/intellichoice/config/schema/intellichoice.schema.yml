@@ -1,5 +1,5 @@
-# Schema for the configuration files of the intelichoice theme.
+# Schema for the configuration files of the intellichoice theme.
 
-intelichoice.settings:
+intellichoice.settings:
   type: theme_settings
-  label: 'intelichoice settings'
+  label: 'intellichoice settings'

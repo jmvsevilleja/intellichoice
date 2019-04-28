@@ -7,7 +7,7 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-intelichoice, a UIkit sub-theme generated using Drush.
+intellichoice, a UIkit sub-theme generated using Drush.
 
  * For a full description of the UIkit project:
    https://drupal.org/project/uikit

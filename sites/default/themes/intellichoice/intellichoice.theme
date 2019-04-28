@@ -2,11 +2,11 @@
 
 /**
  * @file
- * Conditional logic and data processing for intelichoice.
+ * Conditional logic and data processing for intellichoice.
  */
 
 /**
- * Load intelichoice's include files for theme processing.
+ * Load intellichoice's include files for theme processing.
  */
 include_once 'includes/preprocess.inc';
 include_once 'includes/process.inc';
